@@ -1,0 +1,138 @@
+    .btn-h1-spacing {
+        margin-top: 10px;
+    }
+    
+    .form-spacing-top {
+        margin-top: 30px;
+    }
+    
+    .card-deck .card {
+        max-width: calc(25% - 30px);
+    }
+    
+    .no-marginLR {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    
+    body {
+        font-family: 'Noto Serif', serif;
+        font-size: 18px;
+        background-color: white;
+    }
+    
+    .font-frank-body {
+        font-family: 'Noto Serif', serif;
+        font-size: 22px;
+    }
+    
+    .ptitle-spacing-top {
+        margin-top: 50px;
+    }
+    
+    .container-spacing-top {
+        margin-top: 50px;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-top: 1px;
+    }
+    
+    .ptitle-style {
+        font-family: 'Spartan', sans-serif;
+    }
+    
+    .comment {
+        margin-bottom: 45px;
+    }
+    
+    .author-image {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        float: left;
+    }
+    
+    .author-name {
+        float: left;
+        margin-left: 15px;
+    }
+    
+    .author-name>h4 {
+        margin: 5px 0px;
+    }
+    
+    .author-time {
+        font-size: 11px;
+        font-style: italic;
+        color: #aaaa;
+    }
+    
+    .comment-content {
+        clear: both;
+        margin-left: 65px;
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+    
+    .comments-title {
+        margin-bottom: 30px;
+    }
+    
+    .comment-title>span {
+        margin-right: 15px;
+    }
+    
+    .post-content {
+        /* clear: both; */
+        /* margin-left: 320px; */
+        font-size: 16px;
+        line-height: 1.3em;
+    }
+}
+*/ .postimg {
+    padding: 1px;
+    opacity: 1.0;
+    transition: opacity 1s ease-in-out;
+    /* border: 1px solid gray;
+    background-color: white; */
+}
+.postimg:hover {
+    opacity: 0.4;
+}
+.post {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+}
+.sticky1 {
+    background: white;
+    position: fixed;
+    position: absolute;
+    right: 0;
+}
+.image-container-center {
+    margin-top: 27px;
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Clearfix (clear floats) */
+
+/* .row1::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
+.post-image {
+    float: left;
+    margin-right: 10px;
+    margin-bottom:10px;
+}
+@media screen and (max-width: 500px) {
+    .post {
+        width: 100%;
+        margin-bottom: 30px;
+    }
